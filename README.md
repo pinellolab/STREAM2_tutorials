@@ -1,5 +1,5 @@
 # STREAM2_tutorials
-Work-in-progress tutorials for STREAM2 https://github.com/pinellolab/STREAM2
+Work-in-progress tutorials for STREAM2 https://github.com/pinellolab/STREAM2 \
 
 
 How to infer (high-dimensional) trajectories for multi-omic datasets: `multiomics.ipynb` \
