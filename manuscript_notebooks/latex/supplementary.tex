@@ -1,0 +1,168 @@
+\documentclass[../thesis.tex]{subfiles}
+\usepackage{subfig}
+
+\begin{document}
+
+\chapter*{Supplementary : data analysis methods}
+\newpage
+
+\section{Cell type annotation}
+
+\subsection{Scatter plots}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/label.png}
+  \caption{Scatter: Time points (days) and sorted assays (CD) annotation}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/leiden_identity_simple2.png}
+  \caption{Scatter: Leiden identity simple annotation}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/leiden_identity.png}
+  \caption{Scatter: Leiden identity annotation}
+\end{figure}
+
+\FloatBarrier
+\subsection{Bar plots}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/label_proportions.png}
+  \caption{Proportions: Leiden identity simple annotation}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/leiden_identity_simple2_proportions.png}
+  \caption{Proportions: Leiden identity simple annotation}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/leiden_identity_proportions.png}
+  \caption{Proportions: Leiden identity annotation}
+\end{figure}
+
+\FloatBarrier
+\subsection{Correlation plots}
+
+\begin{figure}[!htb]
+  \centering
+  \subfloat[RNA CD]{
+    \includegraphics[width=0.5\textwidth]{./images/stream2/correlation_matrix_leiden_identity_simple2_adata_RNA_CD.png}
+  }
+  \subfloat[RNA days]{
+    \includegraphics[width=0.5\textwidth]{./images/stream2/correlation_matrix_leiden_identity_simple2_adata_RNA_days.png}
+  }
+  \hspace{0mm}
+  \subfloat[ATAC CD]{
+    \includegraphics[width=0.5\textwidth]{./images/stream2/correlation_matrix_leiden_identity_simple2_adata_ATAC_CD.png}
+  }
+  \subfloat[ATAC days]{
+    \includegraphics[width=0.5\textwidth]{./images/stream2/correlation_matrix_leiden_identity_simple2_adata_ATAC_days.png}
+  }
+  \caption{Correlation between cell type averages (obtained using top PCs)}
+\end{figure}
+
+\FloatBarrier
+\section{Data integration}
+
+\subsection{Linear optimal transport}
+
+\subsubsection{Scatter plots}
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_RNA_days_subspace.png}
+  \caption{Assays in RNA days PCA subspace}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_RNA_days_subspace_aligned.png}
+  \caption{Assays in RNA days PCA subspace, after alignment with linear optimal transport}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_RNA_days_subspace_aligned_Intersection_of_expressed_genes_leiden_identity_simple2.png}
+  \caption{Assays in RNA days PCA subspace obtained using the intersection of expressed genes, after alignment with linear optimal transport.}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_RNA_days_subspace_aligned_Union_of_variable_genes_leiden_identity_simple2.png}
+  \caption{Assays in RNA days PCA subspace obtained using the union of variable genes, after alignment with linear optimal transport.}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_RNA_days_subspace_aligned_Intersection_of_variable_genes_leiden_identity_simple2.png}
+  \caption{Assays in RNA days PCA subspace obtained using the intersection of variable genes, after alignment with linear optimal transport.}
+\end{figure}
+
+\FloatBarrier
+\subsubsection{Correlation plots}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_X_pca_target_leiden_identity_simple2.png}
+  \caption{Correlation between assays' cell type averages (obtained using top PCs of assays, each in their own PCA subspace)}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_X_pca_target_leiden_identity_simple2.png}
+  \caption{Correlation between assays' cell type averages (obtained using top PCs of assays in RNA days PCA subspace)}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{./images/stream2/assays_X_pca_transp_leiden_identity_simple2.png}
+  \caption{Correlation between assays' cell type averages (obtained using top PCs of assays in RNA days PCA subspace, after alignment with linear optimal transport)}
+\end{figure}
+
+\FloatBarrier
+\subsection{Supervised optimal transport}
+
+\textbf{Grouping of categories to go from full to simple annotation}
+\begin{itemize}
+  \item 'Early-ERP','Erythroblast','CD34+ ERP' = 'Erythroid'
+  \item 'Platelet','CD34+ MKP' = 'MKP'
+  \item 'Pre-Dendritic','Dendritic Cell' = 'Dendritic'
+  \item 'CD34+ CLP','CD34+ pre-B','Pro-B','Plasma Cell', 'NK cells','Naive T-cell','CD8 T-cell' = 'Lymphoid'
+  \item 'CD34+ Mixed-Lineage', 'CD34+ HSC','CD34+ CMP', 'CD34+ Gran', 'Eosinophil','Stromal Cells' = 'Mixed-Lineage'
+  \item change unlikely 'Erythroid' annotation (outlier, mixed cluster) for late ATAC days (day 7 and 12) to 'Mixed-Lineage'
+\end{itemize}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{./images/stream2/integration_supervision.png}
+  \caption{Supplementary: supervision of OT cost matrix}
+\end{figure}
+
+\FloatBarrier
+\section{Trajectory inference}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.5\textwidth]{./images/stream2/integrated_hsc_score.png}
+  \caption{Supplementary: hematopoeitic stem cell score}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \subfloat{
+    \includegraphics[width=0.5\textwidth]{./images/stream2/Erythroid_24_107_pseudotime.png}
+  }
+  \subfloat{
+    \includegraphics[width=0.5\textwidth]{./images/stream2/Erythroid_24_107_markers.png}
+  }
+  \caption{Top markers of the Erythroid branch based on log fold change}
+\end{figure}
+\end{document}
