@@ -259,4 +259,111 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 22.
- (c:/texlive/2021/texmf-dist/t
+ (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count287
+)
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
+\@outlinefile=\write3
+\openout3 = `supplementary.out'.
+
+\tf@toc=\write4
+\openout4 = `supplementary.toc'.
+
+<../figures/hematopoiesis/label.png, id=4, 859.0494pt x 569.7285pt>
+File: ../figures/hematopoiesis/label.png Graphic file (type png)
+<use ../figures/hematopoiesis/label.png>
+Package pdftex.def Info: ../figures/hematopoiesis/label.png  used on input line 34.
+(pdftex.def)             Requested size: 345.0pt x 228.80885pt.
+<../figures/hematopoiesis/leiden_identity_simple2.png, id=6, 859.2903pt x 569.7285pt>
+File: ../figures/hematopoiesis/leiden_identity_simple2.png Graphic file (type png)
+<use ../figures/hematopoiesis/leiden_identity_simple2.png>
+Package pdftex.def Info: ../figures/hematopoiesis/leiden_identity_simple2.png  used on input line 40.
+(pdftex.def)             Requested size: 345.0pt x 228.7393pt.
+<../figures/hematopoiesis/leiden_identity.png, id=7, 858.8085pt x 569.7285pt>
+File: ../figures/hematopoiesis/leiden_identity.png Graphic file (type png)
+<use ../figures/hematopoiesis/leiden_identity.png>
+Package pdftex.def Info: ../figures/hematopoiesis/leiden_identity.png  used on input line 46.
+(pdftex.def)             Requested size: 345.0pt x 228.8697pt.
+ [1
+
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figures/hematopoiesis/label.png>]
+<../figures/hematopoiesis/label_proportions.png, id=20, 1076.3412pt x 570.933pt>
+File: ../figures/hematopoiesis/label_proportions.png Graphic file (type png)
+<use ../figures/hematopoiesis/label_proportions.png>
+Package pdftex.def Info: ../figures/hematopoiesis/label_proportions.png  used on input line 55.
+(pdftex.def)             Requested size: 345.0pt x 182.99849pt.
+<../figures/hematopoiesis/leiden_identity_simple2_proportions.png, id=21, 1076.823pt x 570.933pt>
+File: ../figures/hematopoiesis/leiden_identity_simple2_proportions.png Graphic file (type png)
+<use ../figures/hematopoiesis/leiden_identity_simple2_proportions.png>
+Package pdftex.def Info: ../figures/hematopoiesis/leiden_identity_simple2_proportions.png  used on input line 61.
+(pdftex.def)             Requested size: 345.0pt x 182.92007pt.
+<../figures/hematopoiesis/leiden_identity_proportions.png, id=22, 1076.3412pt x 570.933pt>
+File: ../figures/hematopoiesis/leiden_identity_proportions.png Graphic file (type png)
+<use ../figures/hematopoiesis/leiden_identity_proportions.png>
+Package pdftex.def Info: ../figures/hematopoiesis/leiden_identity_proportions.png  used on input line 67.
+(pdftex.def)             Requested size: 345.0pt x 182.99849pt.
+ [2 <../figures/hematopoiesis/leiden_identity_simple2.png> <../figures/hematopoiesis/leiden_identity.png>] [3 <../figures/hematopoiesis/label_proportions.png> <../figures/hematopoiesis/leiden_identity_simple2_proportions.png>] [4 <../figures/hematopoiesis/leiden_identity_proportions.png>]
+<../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_CD.png, id=46, 489.9906pt x 393.8715pt>
+File: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_CD.png Graphic file (type png)
+<use ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_CD.png>
+Package pdftex.def Info: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_CD.png  used on input line 78.
+(pdftex.def)             Requested size: 172.5pt x 138.66241pt.
+<../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_days.png, id=47, 557.2017pt x 460.3599pt>
+File: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_days.png Graphic file (type png)
+<use ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_days.png>
+Package pdftex.def Info: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_RNA_days.png  used on input line 81.
+(pdftex.def)             Requested size: 172.5pt x 142.52042pt.
+<../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_CD.png, id=48, 489.9906pt x 393.8715pt>
+File: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_CD.png Graphic file (type png)
+<use ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_CD.png>
+Package pdftex.def Info: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_CD.png  used on input line 85.
+(pdftex.def)             Requested size: 172.5pt x 138.66241pt.
+<../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_days.png, id=49, 489.9906pt x 393.8715pt>
+File: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_days.png Graphic file (type png)
+<use ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_days.png>
+Package pdftex.def Info: ../figures/hematopoiesis/correlation_matrix_leiden_identity_simple2_adata_ATAC_days.png  used on input line 88.
+(pdftex.def)             Requested size: 172.5pt x 138.66241pt.
+
+Overfull \hbox (13.33331pt too wide) in paragraph at lines 78--89
+ [][][][] 
+ []
+
+
+Overfull \hbox (13.33331pt too wide) in paragraph at lines 78--89
+ [][][][] 
+ []
+
+<../figures/hematopoiesis/assays_RNA_days_subspace.png, id=50, 1191.0096pt x 353.1594pt>
+File: ../figures/hematopoiesis/assays_RNA_days_subspace.png Graphic file (type png)
+<use ../figures/hematopoiesis/assays_RNA_days_subspace.png>
+Package pdftex.def Info: ../figures/hematopoiesis/assays_RNA_days_subspace.png  used on input line 100.
+(pdftex.def)             Requested size: 345.0pt x 102.29503pt.
+<../figures/hematopoiesis/assays_RNA_days_subspace_aligned.png, id=51, 589.9641pt x 1075.6185pt>
+File: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned.png Graphic file (type png)
+<use ../figures/hematopoiesis/assays_RNA_days_subspace_aligned.png>
+Package pdftex.def Info: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned.png  used on input line 106.
+(pdftex.def)             Requested size: 345.0pt x 629.01273pt.
+
+LaTeX Warning: Float too large for page by 65.01273pt on input line 108.
+
+<../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Intersection_of_expressed_genes_leiden_identity_simple2.png, id=52, 1076.1003pt x 713.5458pt>
+File: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Intersection_of_expressed_genes_leiden_identity_simple2.png Graphic file (type png)
+<use ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Intersection_of_expressed_genes_leiden_identity_simple2.png>
+Package pdftex.def Info: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Intersection_of_expressed_genes_leiden_identity_simple2.png  used on input line 112.
+(pdftex.def)             Requested size: 345.0pt x 228.76395pt.
+<../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Union_of_variable_genes_leiden_identity_simple2.png, id=53, 1076.1003pt x 713.5458pt>
+File: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Union_of_variable_genes_leiden_identity_simple2.png Graphic file (type png)
+<use ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Union_of_variable_genes_leiden_identity_simple2.png>
+Package pdftex.def Info: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Union_of_variable_genes_leiden_identity_simple2.png  used on input line 118.
+(pdftex.def)             Requested size: 345.0pt x 228.76395pt.
+<../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Intersection_of_variable_genes_leiden_identity_simple2.png, id=54, 1076.1003pt x 713.5458pt>
+File: ../figures/hematopoiesis/assays_RNA_days_subspace_aligned_Intersection_of_variable_genes_leiden_identity_simple2.png Graphic file (type png)
+<use ../figures/hematopoiesis/assays_RNA_days_subspace_a

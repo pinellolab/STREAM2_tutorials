@@ -6,3 +6,6 @@
 data/shareseq
 data/hematopoiesis
 manuscript_notebooks/result_stream2
+manuscript_notebooks/latex/supplementary.aux
+manuscript_notebooks/latex/supplementary.fls
+manuscript_notebooks/latex/supplementary.log
